@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: sans-serif;
+  background-color: darkred
+
+}
+/*tab buttons*/
+a:link, a:visited {
+    background-color: ##8b0000;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 55px;
+}
+a:hover, a:active {
+    background-color: #808080;
+color:#FF0000;
+}
+div.navbar
+{
+    width:100px;
+    padding:5px;
+    border:3px solid Black;
+    margin-left:20px;
+}
+.banner-text{
+  width: 100%;
+  position: absolute;
+}
+.banner-text ul{
+  height: 50px;
+  float: right;
+}
+.banner-text ul li{
+  display: inline-block;
+  padding: 40px 15px;
+  text-transform: uppercase;
+  color: #000,
+  font-size: 20px;
+}
+.banner-text h2{
+  text-align:
+  color: #000;
+  font-size: 100px;
+}
+/* login form */
+form {
+  border: 3px solid #f1f1f1;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #808080;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #808080;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+.container {
+  padding: 16px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
